@@ -1,0 +1,76 @@
+nohup: 忽略输入
+[nltk_data] Error loading punkt: <urlopen error [Errno 111] Connection
+[nltk_data]     refused>
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.434 seconds.
+Prefix dict has been built successfully.
+======================bag_of_words:==========================
+=========BernoulliNB=========
+
+recall: 0.847095
+Precision: 0.904519
+accuracy: 0.870630
+F1Score-macro: 0.870482
+F1Score-micro: 0.870630
+TNR: 0.897586
+FPR: 0.102414
+=========MultinomialNB=========
+
+recall: 0.843679
+Precision: 0.689757
+accuracy: 0.780988
+F1Score-macro: 0.779149
+F1Score-micro: 0.780988
+TNR: 0.737646
+FPR: 0.262354
+=========LogisticRegression=========
+
+recall: 0.831502
+Precision: 0.960178
+accuracy: 0.882808
+F1Score-macro: 0.882103
+F1Score-micro: 0.882808
+TNR: 0.952892
+FPR: 0.047108
+=========SVC=========
+
+recall: 0.825891
+Precision: 0.966012
+accuracy: 0.881187
+F1Score-macro: 0.880327
+F1Score-micro: 0.881187
+TNR: 0.959072
+FPR: 0.040928
+=========LinearSVC=========
+
+recall: 0.828416
+Precision: 0.959530
+accuracy: 0.880400
+F1Score-macro: 0.879647
+F1Score-micro: 0.880400
+TNR: 0.951925
+FPR: 0.048075
+=========NuSVC=========
+
+recall: 0.811912
+Precision: 0.975829
+accuracy: 0.874890
+F1Score-macro: 0.873603
+F1Score-micro: 0.874890
+TNR: 0.969718
+FPR: 0.030282
+recall_list:	
+[0.8470945359930616, 0.843679202537381, 0.8315021252706712, 0.8258907363420428, 0.8284160869912849, 0.8119124672522731]
+Precision_list:	
+[0.9045193554361919, 0.6897573624745323, 0.9601778107056862, 0.966012224486016, 0.9595295425078718, 0.9758288571957769]
+accuracy_list:	
+[0.870630180117609, 0.7809881001991017, 0.8828077973792656, 0.8811872019261935, 0.8804000555632727, 0.8748900310228273]
+F1Score_macro_list:	
+[0.870481798978471, 0.7791486567654238, 0.8821028619333564, 0.8803270287288716, 0.8796473161510878, 0.8736033731312]
+F1Score_micro_list:	
+[0.870630180117609, 0.7809881001991017, 0.8828077973792656, 0.8811872019261935, 0.8804000555632727, 0.8748900310228273]
+TNR_list:	
+[0.89758617264329, 0.7376458610697784, 0.9528921998247152, 0.9590721534515445, 0.9519251925192519, 0.9697180647406892]
+FPR_list:	
+[0.10241382735671001, 0.26235413893022164, 0.04710780017528482, 0.04092784654845549, 0.048074807480748105, 0.030281935259310777]

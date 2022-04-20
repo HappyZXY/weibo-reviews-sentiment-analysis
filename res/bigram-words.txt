@@ -1,0 +1,70 @@
+nohup: 忽略输入
+[nltk_data] Error loading punkt: <urlopen error [Errno 111] Connection
+[nltk_data]     refused>
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.514 seconds.
+Prefix dict has been built successfully.
+/home/xpk/.conda/envs/zhappy-snippext/lib/python3.7/site-packages/sklearn/linear_model/_logistic.py:764: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+======================bigram:==========================
+BernoulliNB
+recall: 0.822087
+Precision: 0.652158
+accuracy: 0.755522
+F1Score: 0.727329
+TNR: 0.711764
+FPR: 0.288236
+MultinomiaNB
+recall: 0.801451
+Precision: 0.675125
+accuracy: 0.753947
+F1Score: 0.732884
+TNR: 0.719382
+FPR: 0.280618
+LogisticRegression
+recall: 0.839727
+Precision: 0.638544
+accuracy: 0.758346
+F1Score: 0.725446
+TNR: 0.708427
+FPR: 0.291573
+SVC
+recall: 0.820934
+Precision: 0.647898
+accuracy: 0.753299
+F1Score: 0.724224
+TNR: 0.709216
+FPR: 0.290784
+LinearSVC
+recall: 0.845456
+Precision: 0.629746
+accuracy: 0.757327
+F1Score: 0.721830
+TNR: 0.705032
+FPR: 0.294968
+NuSVC
+recall: 0.820274
+Precision: 0.643730
+accuracy: 0.751354
+F1Score: 0.721357
+TNR: 0.706851
+FPR: 0.293149
+recall_list:
+[0.822087, 0.801451, 0.839727, 0.820934, 0.845456, 0.820274]
+Precision_list:
+[0.652158, 0.675125, 0.638544, 0.647898, 0.629746, 0.64373]
+accuracy_list:
+[0.755522, 0.753947, 0.758346, 0.753299, 0.757327, 0.751354]
+F1Score_list:
+[0.727329, 0.732884, 0.725446, 0.724224, 0.72183, 0.721357]
+TNR_list:
+[0.711764, 0.719382, 0.708427, 0.709216, 0.705032, 0.706851]
+FPR_list:
+[0.288236, 0.280618, 0.291573, 0.290784, 0.294968, 0.293149]

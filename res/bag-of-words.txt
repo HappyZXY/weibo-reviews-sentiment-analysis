@@ -1,0 +1,70 @@
+nohup: 忽略输入
+[nltk_data] Error loading punkt: <urlopen error [Errno 111] Connection
+[nltk_data]     refused>
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.442 seconds.
+Prefix dict has been built successfully.
+/home/xpk/.conda/envs/zhappy-snippext/lib/python3.7/site-packages/sklearn/linear_model/_logistic.py:764: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+======================bag_of_words:==========================
+BernoulliNB
+recall: 0.852496
+Precision: 0.907761
+accuracy: 0.875353
+F1Score: 0.879261
+TNR: 0.901376
+FPR: 0.098624
+MultinomiaNB
+recall: 0.851520
+Precision: 0.703186
+accuracy: 0.790295
+F1Score: 0.770276
+TNR: 0.747240
+FPR: 0.252760
+LogisticRegression
+recall: 0.835455
+Precision: 0.960178
+accuracy: 0.885540
+F1Score: 0.893485
+TNR: 0.953195
+FPR: 0.046805
+SVC
+recall: 0.830994
+Precision: 0.964901
+accuracy: 0.884336
+F1Score: 0.892955
+TNR: 0.958163
+FPR: 0.041837
+LinearSVC
+recall: 0.833467
+Precision: 0.959900
+accuracy: 0.884058
+F1Score: 0.892227
+TNR: 0.952734
+FPR: 0.047266
+NuSVC
+recall: 0.819542
+Precision: 0.974069
+accuracy: 0.879798
+F1Score: 0.890149
+TNR: 0.968047
+FPR: 0.031953
+recall_list:
+[0.852496, 0.85152, 0.835455, 0.830994, 0.833467, 0.819542]
+Precision_list:
+[0.907761, 0.703186, 0.960178, 0.964901, 0.9599, 0.974069]
+accuracy_list:
+[0.875353, 0.790295, 0.88554, 0.884336, 0.884058, 0.879798]
+F1Score_list:
+[0.879261, 0.770276, 0.893485, 0.892955, 0.892227, 0.890149]
+TNR_list:
+[0.901376, 0.74724, 0.953195, 0.958163, 0.952734, 0.968047]
+FPR_list:
+[0.098624, 0.25276, 0.046805, 0.041837, 0.047266, 0.031953]

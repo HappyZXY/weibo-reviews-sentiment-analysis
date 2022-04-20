@@ -1,0 +1,12 @@
+======the length of posFeature：53993==============
+======the length of negFeature：53995=================
+({'鼓掌': 'True'},
+{'长': 'True', '时间': 'True', '幸福': 'True', '死': 'True', '转': 'True', '鼓掌': 'True', '酝酿': 'True', '留': 'True', '充': 'True', '给力': 'True', ' ': 'True', '送': 'True', '思考': 'True', '威武': 'True', '猪': 'True', '终于': 'True'}, {'嘻嘻': 'True', '票': 'True', '祖': 'True', '支持': 'True', '微博': 'True', '毅': 'True', '木': 'True', ' ': 'True', '趴': 'True', '胤': 'True', '瑶': 'True'}, {'吃': 'True'}, {'爱': 'True'}, {'蜘蛛': 'True', '屋': 'True', '转发': 'True', '微博': 'True'}, {'姐': 'True', '茹': 'True', '幸福': 'True', '谢谢': 'True', '心': 'True', ' ': 'True', '爱': 'True', '纪': 'True', '蛋糕': 'True'}, {'嘻嘻': 'True', '报': 'True', ' ': 'True'}, {'元': 'True', '嘻嘻': 'True', '回复': 'True', '加油': 'True', '汗': 'True', ' ': 'True', '请': 'True'},
+{'妈妈': 'True', '幸福': 'True', '嘻嘻': 'True', '蛋糕': 'True'},
+{'嘻嘻': 'True', '参加': 'True', ' ': 'True'},
+{'送': 'True', '手': 'True'}, {'拍': 'True', '嘻嘻': 'True'},
+{'羡慕': 'True', '爱': 'True', '坨': 'True'}, 
+{'谢谢': 'True', '围脖': 'True', '支持': 'True', '老师': 'True', ' ': 'True', '妞': 'True', '汪': 'True'},
+{'杂志': 'True', ' ': 'True'}, {'夜': 'True', '帅': 'True', '嘻嘻': 'True', '萌': 'True', '超级': 'True'}, 
+{'全': 'True'}, 
+BernoulliNB`s accuracy is 0.907419

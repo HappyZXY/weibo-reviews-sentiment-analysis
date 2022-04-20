@@ -1,0 +1,70 @@
+nohup: 忽略输入
+[nltk_data] Error loading punkt: <urlopen error [Errno 111] Connection
+[nltk_data]     refused>
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.436 seconds.
+Prefix dict has been built successfully.
+/home/xpk/.conda/envs/zhappy-snippext/lib/python3.7/site-packages/sklearn/linear_model/_logistic.py:764: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+======================bigram:==========================
+BernoulliNB
+recall: 0.819266
+Precision: 0.649009
+accuracy: 0.752929
+F1Score: 0.724266
+TNR: 0.709423
+FPR: 0.290577
+MultinomiaNB
+recall: 0.799978
+Precision: 0.671884
+accuracy: 0.751956
+F1Score: 0.730357
+TNR: 0.717193
+FPR: 0.282807
+LogisticRegression
+recall: 0.842430
+Precision: 0.631784
+accuracy: 0.756818
+F1Score: 0.722058
+TNR: 0.705460
+FPR: 0.294540
+SVC
+recall: 0.815638
+Precision: 0.642434
+accuracy: 0.748622
+F1Score: 0.718748
+TNR: 0.705087
+FPR: 0.294913
+LinearSVC
+recall: 0.848557
+Precision: 0.623727
+accuracy: 0.756216
+F1Score: 0.718975
+TNR: 0.702562
+FPR: 0.297438
+NuSVC
+recall: 0.817044
+Precision: 0.641045
+accuracy: 0.748761
+F1Score: 0.718422
+TNR: 0.704686
+FPR: 0.295314
+recall_list:
+[0.819266, 0.799978, 0.84243, 0.815638, 0.848557, 0.817044]
+Precision_list:
+[0.649009, 0.671884, 0.631784, 0.642434, 0.623727, 0.641045]
+accuracy_list:
+[0.752929, 0.751956, 0.756818, 0.748622, 0.756216, 0.748761]
+F1Score_list:
+[0.724266, 0.730357, 0.722058, 0.718748, 0.718975, 0.718422]
+TNR_list:
+[0.709423, 0.717193, 0.70546, 0.705087, 0.702562, 0.704686]
+FPR_list:
+[0.290577, 0.282807, 0.29454, 0.294913, 0.297438, 0.295314]

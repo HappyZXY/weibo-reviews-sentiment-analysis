@@ -1,0 +1,70 @@
+nohup: 忽略输入
+[nltk_data] Error loading punkt: <urlopen error [Errno 111] Connection
+[nltk_data]     refused>
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.434 seconds.
+Prefix dict has been built successfully.
+/home/xpk/.conda/envs/zhappy-snippext/lib/python3.7/site-packages/sklearn/linear_model/_logistic.py:764: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+======================jieba_feature:==========================
+BernoulliNB
+recall: 0.956729
+Precision: 0.890721
+accuracy: 0.925221
+F1Score: 0.922546
+TNR: 0.897782
+FPR: 0.102218
+MultinomiaNB
+recall: 0.947104
+Precision: 0.820800
+accuracy: 0.887484
+F1Score: 0.879440
+TNR: 0.841899
+FPR: 0.158101
+LogisticRegression
+recall: 0.993442
+Precision: 0.968050
+accuracy: 0.980831
+F1Score: 0.980582
+TNR: 0.968849
+FPR: 0.031151
+SVC
+recall: 0.991824
+Precision: 0.966197
+accuracy: 0.979117
+F1Score: 0.978843
+TNR: 0.967052
+FPR: 0.032948
+LinearSVC
+recall: 0.997230
+Precision: 0.966846
+accuracy: 0.982081
+F1Score: 0.981803
+TNR: 0.967829
+FPR: 0.032171
+NuSVC
+recall: 0.968995
+Precision: 0.949342
+accuracy: 0.959485
+F1Score: 0.959068
+TNR: 0.950354
+FPR: 0.049646
+recall_list:
+[0.956729, 0.947104, 0.993442, 0.991824, 0.99723, 0.968995]
+Precision_list:
+[0.890721, 0.8208, 0.96805, 0.966197, 0.966846, 0.949342]
+accuracy_list:
+[0.925221, 0.887484, 0.980831, 0.979117, 0.982081, 0.959485]
+F1Score_list:
+[0.922546, 0.87944, 0.980582, 0.978843, 0.981803, 0.959068]
+TNR_list:
+[0.897782, 0.841899, 0.968849, 0.967052, 0.967829, 0.950354]
+FPR_list:
+[0.102218, 0.158101, 0.031151, 0.032948, 0.032171, 0.049646]
