@@ -12,13 +12,15 @@
 
 特征提取的方法有很多，因此我们进行实验来探寻一个较为好的方法，如下图7所示，可以看出，当jieba_feature特征提取和词袋特征提取效果，在6个情感分类器中都比较稳定。
 
+![result1](https://github.com/HappyZXY/weibo-reviews-sentiment-analysis/blob/main/res/pic/result1.png)
 
+图7 词特征对分类器的影响。
 
-图7 词特征对分类器的影响。横坐标表示分别是BernoulliNB classifier、MultinomiaNB classifier、LogisticRegression classifier、SVC classifier、LinearSVC classifier、NuSVC classifier，这些分类器在bigram、double bigram、jieba feature extraction and bag of words下的准确率
-
+横坐标表示分别是BernoulliNB classifier、MultinomiaNB classifier、LogisticRegression classifier、SVC classifier、LinearSVC classifier、NuSVC classifier，这些分类器在bigram、double bigram、jieba feature extraction and bag of words下的准确率
+ 
  ![result2](https://github.com/HappyZXY/weibo-reviews-sentiment-analysis/blob/main/res/pic/result2.png)
 
-图8 特征提取与分类器之间的关系
+<font size=1>图8 特征提取与分类器之间的关系</font>
 
 进一步探究特征提取器与分类器的关系，如上图8所示，可以发现LinearSV-M、SVC和线性回归方法的效果比较好，准确率达到95%左右，F-Score值亦是这三个分类器表现较为出类拔萃。
 
@@ -27,6 +29,8 @@
 ![result3](https://github.com/HappyZXY/weibo-reviews-sentiment-analysis/blob/main/res/pic/result3.png)
 
 图9 Bi-LSTM情感分类器效果(左边为模型的准确率，右边为模型的损失)
+
+
 
 
 
