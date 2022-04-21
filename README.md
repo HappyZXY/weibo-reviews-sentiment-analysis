@@ -16,7 +16,7 @@
 
 图7 词特征对分类器的影响。横坐标表示分别是BernoulliNB classifier、MultinomiaNB classifier、LogisticRegression classifier、SVC classifier、LinearSVC classifier、NuSVC classifier，这些分类器在bigram、double bigram、jieba feature extraction and bag of words下的准确率
 
- ![result2](D:\a我的研究生\课程学习\数据挖掘\第6小组(张寒雪+周喜悦）\project1-微博评论情感分析\analysis\weibo-reviews-sentiment-analysis\res\pic\result2.png)
+ ![result2](https://github.com/HappyZXY/weibo-reviews-sentiment-analysis/blob/main/res/pic/result2.png)
 
 图8 特征提取与分类器之间的关系
 
@@ -24,12 +24,9 @@
 
 下图9是Bi-LSTM模型在微博评论数据集上的分类效果，实验中总共用了6次迭代，可以看出模型的准确率已经很高了，模型损失也在第2、3次迭代后快速下降，模型在训练集和验证集上都比较稳定，一方面的原因在于本身数据标签比较精准，使得模型“学习效率比较高”。
 
-![result3](D:\a我的研究生\课程学习\数据挖掘\第6小组(张寒雪+周喜悦）\project1-微博评论情感分析\analysis\weibo-reviews-sentiment-analysis\res\pic\result3.png)
+![result3](https://github.com/HappyZXY/weibo-reviews-sentiment-analysis/blob/main/res/pic/result3.png)
 
 图9 Bi-LSTM情感分类器效果(左边为模型的准确率，右边为模型的损失)
-
-
-
 
 
 
